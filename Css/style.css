@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-width: 100vh;
+    display: grid;
+    place-items: center;
+}
+input[type='number']{
+    width: 99%;
+    margin-bottom: 20px;
+    padding: 25px;
+    font-family: monospace;
+    border-radius: .5rem;
+    text-align: center;
+    font-weight: 600;
+    display: inline-block;
+}
+form p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+button {
+    background-color: rgb(247, 167, 55);
+    color: rgb(0, 10, 10);
+    border: 100%;
+    width: 95%;
+    padding: 1.2rem .2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem .5rem;
+    cursor: pointer;
+}
+section {
+    background-color: #393fb4;
+    color: white;
+    width: 600px;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 2.5rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2px;
+    color: black;
+}
+
+.botones {
+    text-align: center;
+    display: flex;
+    margin-bottom: 120px;
+    
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.body {
+    display: flex;
+    margin: 10%;
+}
+
+.form2 {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+}
+.form3 {
+    display: grid; grid-template-columns: repeat(2, 2fr);
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 166, 0, 0.856);
+    margin: auto;
+}
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 166, 0, 0.856);
+    border-radius: 50%;
+    margin: auto;
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid rgba(255, 166, 0, 0.856);
+    margin: auto;
+}
